@@ -1,5 +1,14 @@
-# Issue Reproduction on SolidStart Action
+# Testing Streaming SolidStart via AWS Lambda
 
 - using aws-lambda preset
+- `app.config.ts` is configured to use:
 
-URL: [https://solidstart-action-issue.oetzi.dev](https://solidstart-action-issue.oetzi.dev)
+```ts
+  {
+    awsLambda: {
+      streaming: true,
+    }
+  }
+```
+
+URL: [https://solidstart-streaming-test.oetzi.dev](https://solidstart-streaming-test.oetzi.dev)

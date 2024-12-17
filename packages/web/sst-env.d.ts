@@ -6,5 +6,9 @@ import "sst"
 export {}
 declare module "sst" {
   export interface Resource {
+    "SolidStartApp": {
+      "type": "sst.aws.SolidStart"
+      "url": string
+    }
   }
 }
